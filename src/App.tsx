@@ -1,9 +1,12 @@
-import React, { FC } from "react";
-import Box from "@material-ui/core/Box";
+import React, { FC } from 'react';
+
+import AppBar from "./components/AppBar";
 
 const App: FC = () => {
   return (
-    <Box />
+    <div>
+      <AppBar />
+    </div>
   )
 }
 
