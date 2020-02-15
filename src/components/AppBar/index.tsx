@@ -10,9 +10,13 @@ import useStyles from './styles';
 
 const AppBarIndex: FC = () => {
   const classes = useStyles();
+
   return (
     <div className={classes.root}>
-      <AppBar position="static">
+      <AppBar
+        className={classes.appBar}
+        position="static"
+      >
         <Toolbar>
           <IconButton
             edge="start"

@@ -9,6 +9,9 @@ const useStyles = makeStyles(theme => ({
   },
   title: {
     flexGrow: 1
+  },
+  appBar: {
+    background: theme.palette.primary.main
   }
 }));
 
